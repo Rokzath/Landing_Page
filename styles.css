@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.card1, .header, .headerlink{
+    flex-direction: row;
+}
+.card2{
+    flex-grow:1;
+}
+
+.square{
+}
+.header, .card1, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.quotes{
+    font-size:36px;
+    font-style: italic;
+    font-weight: lighter;
+    font: #1F2937;
+    background-color: #E5E7EB;
+}
